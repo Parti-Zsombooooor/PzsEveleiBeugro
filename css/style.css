@@ -19,3 +19,26 @@ header p {
     margin: 0px;
     
 }
+
+/* === NAV === */
+
+nav{
+    background-color: rgb(35, 36, 46);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a{
+    color: white;
+    width: fit-content;
+    height: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
