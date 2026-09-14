@@ -1,0 +1,21 @@
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(28, 29, 36);
+    margin: 0px;
+    height: 0px;
+}
+
+header{
+    background-color: rgb(39, 40, 51);
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header p {
+    color: white;
+    margin: 0px;
+    
+}
