@@ -116,8 +116,20 @@ nav a{
 
 
 /* === keszsegek === */
-#keszsegek{
+.keszAllCardDiv{
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+
 }
 
-#keszsegek div
+.keszBgDiv{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    overflow: hidden;
+    background-color: aqua;
+    flex: 0 0 100px;
+    margin: 10px
+}
