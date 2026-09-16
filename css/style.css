@@ -135,11 +135,12 @@ nav a {
     flex-direction: column;
 }
 
-.keszBgTint img{
+.keszBgTint img {
     height: 80px;
     filter: white;
 }
-.keszBgTint p{
+
+.keszBgTint p {
     font-weight: bold;
     margin-bottom: 0px;
 }
@@ -184,13 +185,11 @@ nav a {
 
 /* === projektek === */
 
-.projCardHolder{
-    text-align: center;
+.projCardHolder {
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
     justify-content: center
-    
 }
 
 .projCard {
@@ -201,8 +200,9 @@ nav a {
     flex: 0 0 250px;
     margin: 10px;
     border-radius: 10px;
-    background-color: aqua;
+
 }
+
 
 
 .projBgTint {
@@ -210,22 +210,45 @@ nav a {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.842) 0%, rgba(0, 0, 0, 0.603) 40%, rgba(255, 255, 255, 0) 100%);
     width: 250px;
     height: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: flex;  
     flex-direction: column;
 }
-
-.projBgImage1{
-        background-image: url("../img/projekteim/kina.jpg");
-    background-size: 100%;
-    background-position: center;
+.projBgTint h3{
+    margin-top: auto;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 255, 213);
+    text-decoration-thickness: 2px;
 }
 
-.projBgImage1{
-        background-image: url("../img/projekteim/");
-    background-size: 100%;
-    background-position: center;
+.projBgTint p{
+    margin-left: 10px;
+    margin-bottom: 50px;
+    
+}
+
+.projBgImage1 {
+    background-image: url("../img/projekteim/kina.jpg");
+    background-size: 360%;
+    background-position:-450px;
+    background-repeat: no-repeat;
+}
+
+.projBgImage2 {
+    background-image: url("../img/projekteim/pek.jpg");
+    background-size: 360%;
+    background-position:-400px;
+
+    background-repeat: no-repeat;
+}
+
+.projBgImage3 {
+    background-image: url("../img/projekteim/stone.png");
+    background-size: 400%;
+    background-position:-450px;
+    background-repeat: no-repeat;
 }
 
 
