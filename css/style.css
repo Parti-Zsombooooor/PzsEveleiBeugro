@@ -1,4 +1,4 @@
-body{
+body {
     font-family: "Roboto", sans-serif;
     background-color: rgb(28, 29, 36);
     margin: 0px;
@@ -6,7 +6,7 @@ body{
     color: white;
 }
 
-header{
+header {
     background-color: rgb(39, 40, 51);
     height: 30px;
     width: 100%;
@@ -18,10 +18,10 @@ header{
 header p {
     color: white;
     margin: 0px;
-    
+
 }
 
-h2{
+h2 {
     text-decoration: underline;
     text-decoration-color: rgb(0, 255, 213);
     text-decoration-thickness: 2px;
@@ -29,17 +29,17 @@ h2{
 
 /* === NAV === */
 
-nav{
+nav {
     background-color: rgb(35, 36, 46);
     height: 60px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-     filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.233));
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.233));
 }
 
-nav a{
+nav a {
     color: white;
     width: fit-content;
     height: 60px;
@@ -53,7 +53,7 @@ nav a{
 
 /* === Bemutatkozas === */
 
-.bemMainDiv{
+.bemMainDiv {
     background-color: rgb(39, 40, 51);
     width: fit-content;
     padding-left: 20px;
@@ -69,7 +69,7 @@ nav a{
     margin-top: 100px;
 }
 
-.bemKepDiv{
+.bemKepDiv {
     width: 150px;
     height: 200px;
     overflow: hidden;
@@ -80,56 +80,184 @@ nav a{
     border-radius: 10px;
 }
 
-.bemTextDiv{
+.bemTextDiv {
     margin-left: 15px;
     width: 400px;
 }
 
-#bemutatkozas div img{
- 
+#bemutatkozas div img {
+
     width: 150px;
     margin-top: 20px;
 }
 
+
+
+/* === keszsegek === */
+
+.keszh2Center {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.keszAllCardDiv {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center
+}
+
+.keszBgDiv {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    overflow: hidden;
+    flex: 0 0 150px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.keszAllCardDiv {
+    width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.keszBgTint {
+    background: #000000;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.842) 0%, rgba(0, 0, 0, 0.603) 40%, rgba(255, 255, 255, 0) 100%);
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.keszBgTint img{
+    height: 80px;
+    filter: white;
+}
+.keszBgTint p{
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.keszBgImage1 {
+    background-image: url("../img/keszsegeim/htmlbg.jfif");
+    background-size: 230%;
+    background-position: center;
+}
+
+.keszBgImage2 {
+    background-image: url("../img/keszsegeim/cssbg.avif");
+    background-size: 110%;
+    background-position: center;
+}
+
+.keszBgImage3 {
+    background-image: url("../img/keszsegeim/jsbg.jfif");
+    background-size: 230%;
+    background-position: center;
+}
+
+.keszBgImage4 {
+    background-image: url("../img/keszsegeim/luabg.webp");
+    background-size: 100%;
+    background-position: center;
+}
+
+.keszBgImage5 {
+    background-image: url("../img/keszsegeim/reactbg.webp");
+    background-size: 170%;
+    background-position: center;
+}
+
+.keszBgImage6 {
+    background-image: url("../img/keszsegeim/pythonbg.jpg");
+    background-size: 150%;
+    background-position: center;
+}
+
+
+
+/* === projektek === */
+
+.projCardHolder{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center
+    
+}
+
+.projCard {
+    width: 250px;
+    height: 600px;
+    display: flex;
+    overflow: hidden;
+    flex: 0 0 250px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+
+.projBgTint {
+    background: #000000;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.842) 0%, rgba(0, 0, 0, 0.603) 40%, rgba(255, 255, 255, 0) 100%);
+    width: 250px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.projBgImage1{
+        background-image: url("../img/projekteim/kina.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+
+.projBgImage1{
+        background-image: url("../img/projekteim/");
+    background-size: 100%;
+    background-position: center;
+}
+
+
 @media only screen and (max-width: 800px) {
-    .bemMainDiv{
+    .bemMainDiv {
         height: fit-content;
         display: block;
         padding-top: 20px;
         padding-bottom: 20px;
         width: 90%;
 
-  
+
     }
-    .bemKepDiv{
+
+    .bemKepDiv {
         margin-left: auto;
         margin-right: auto;
-       
+
     }
-    .bemTextDiv{
+
+    .bemTextDiv {
         margin-left: auto;
         margin-right: auto;
         width: 100%;
     }
+
+
 }
 
 
-
-/* === keszsegek === */
-.keszAllCardDiv{
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
-
-}
-
-.keszBgDiv{
-    width: 100px;
-    height: 100px;
-    display: flex;
-    overflow: hidden;
-    background-color: aqua;
-    flex: 0 0 100px;
-    margin: 10px
+@media only screen and (max-width: 530px) {
+    .keszAllCardDiv {
+        width: 100%;
+    }
 }
